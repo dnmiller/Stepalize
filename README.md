@@ -61,3 +61,8 @@ once it is published. (The link should work in the future.) A preprint may
 be found
 [here](https://sites.google.com/site/dnmiller/2012_Miller_IEEE_TCPMT.pdf).
 
+
+License
+-------
+This software is released under the 3-clause BSD license. See `LICENSE.txt`
+for details.
