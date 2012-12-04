@@ -53,10 +53,11 @@ Documentation
 -------------
 See the help documentation for usage. Theoretical discussion can be found in
 a preprint of the paper "Thermal Dynamical Identification of LEDs by
-Step-Based Realization and Convex Optimization," which will appear in IEEE
-Transactions on Components, Packaging, and Manufacturing Technology sometime
-in 2013. It will have the doi
+Step-Based Realization and Convex Optimization," which will appear in *IEEE
+Transactions on Components, Packaging, and Manufacturing Technology*
+sometime in 2013. It will have the doi
 [10.1109/TCPMT.2012.2229464](http://dx.doi.org/10.1109/TCPMT.2012.2229464)
-once it is published. A preprint may be found
+once it is published. (The link should work in the future.) A preprint may
+be found
 [here](https://sites.google.com/site/dnmiller/2012_Miller_IEEE_TCPMT.pdf).
 
