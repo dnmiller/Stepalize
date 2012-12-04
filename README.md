@@ -41,7 +41,7 @@ language parser [`YALMIP`](http://users.isy.liu.se/johanl/yalmip/).
 Installation
 ------------
 Just make sure `stepalize.m` is in your path. If you intend to use
-semidefinite constraints, then make sure `SDPT3`, and `YALMIP` are in your
+semidefinite constraints, then make sure `SDPT3` and `YALMIP` are in your
 path and run `stepalize_test.m` to make sure everything works.
 
 **NOTE**: The semidefinite program solver sometimes eats up a lot of memory,
