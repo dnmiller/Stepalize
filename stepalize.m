@@ -18,6 +18,12 @@ function [A, B, C, D] = stepalize(y, varargin)
 %             singular-value plot on which they may select the system
 %             order.
 % 
+%       'BlockRows' - Number of block rows for data matrices
+%           - If not specified, then the number is either
+%               (1) min(floor(size(y, 1)/4), 50) if the order is not
+%                   specified
+%               (2) n * 4 where n is the specified order
+% 
 %       'TimeDelay' - Number of time delays in data
 %           - By default, 1 time delay is assumed, and D is always 0. 
 %           - Set to 0 to estimate a nonzero D.
@@ -142,7 +148,7 @@ function [A, C] = solveAC(args, log_fnc)
         if isempty(args.Order)
             r = min(floor(size(args.y, 1)/4), 50);
         else
-            r = floor(args.Order*2.5);
+            r = floor(args.Order*4);
         end
     else
         r = args.BlockRows;
